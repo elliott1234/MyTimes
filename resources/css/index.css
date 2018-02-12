@@ -1,0 +1,92 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  }
+div {
+  border: solid 2px black;
+}
+
+ .logo {
+  color: MediumAquamarine;
+  margin-left: 25px;
+  }
+ .navigation {
+  color: black;
+  margin-left: 900px;
+ }
+ #link {
+  margin-left: 10px;
+  color: black;
+ }
+ .main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+  }
+ .large {
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+    flex-wrap: wrap;
+    margin-right: 10px;
+  }
+ .monument {
+      width: 630px;
+    }
+    .header1 {
+      display: flex;
+      justify-content: flex-start;
+      background-image: url("../images/main.PNG"); width: 629; height: 300;
+      min-width: 629px;
+      min-height: 300px;
+
+    }
+
+    #mother{
+      font-family: Georgia;
+      font-weight: bold;
+      font-size: 40px;
+      color: white;
+    }
+ .autumn {
+    width: 312px
+    }
+
+    .header2{
+      display: flex;
+      justify-content: flex-start;
+      background-image: url("../images/autumn.PNG"); width: 299; height: 300;
+      min-width: 629px;
+      min-height: 300px;
+    }
+
+    #earth{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+    }
+  .camera {
+   width: 312px
+    }
+    .medium {
+      min-width: 300px;
+      display: flex;
+      flex-direction: column;
+      margin-right: 10px
+
+    }
+    .small {
+      width: 240px;
+      display:flex;
+      flex-direction: column;
+      margin-right: 10px
+    }
