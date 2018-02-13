@@ -66,7 +66,7 @@ div {
     }
 
 .autumn {
-    width: 299px
+    width: 310px;
   }
 
 .header2 {
@@ -75,6 +75,7 @@ div {
       background-image: url("../images/autumn.PNG"); width: 299; height: 300;
       max-width: 299px;
       min-height: 300px;
+      margin: 5px;
     }
 
 #earth {
@@ -89,7 +90,7 @@ div {
   }
 
 .camera {
-   width: 312px
+width: 310px;
   }
 
 .header3 {
@@ -97,8 +98,8 @@ div {
       justify-content: center;
       background-image: url("../images/camera.PNG"); width: 299; height: 300;
       max-width: 299px;
-      max-width: 299px;
       min-height: 300px;
+      margin: 5px;
     }
 
 .medium {
@@ -126,17 +127,47 @@ div {
 
 .bites {
       text-align: center;
+      flex: auto;
     }
 
 #emoji {
       margin: auto;
-      flex-wrap: wrap;
       width: 240px;
       height: 40px;
-      text-align: center;
+      flex-flow: column;
       background-color: WhiteSmoke;
       font-family: Verdana;
       font-size: 12px;
       color: DimGray;
       border-bottom: solid 1px black;
     }
+
+  .footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 300px;
+
+  }
+
+  #mytimes{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  }
+.navigation1 {
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 12px;
+  }
+  .last {
+  
+
+  }
