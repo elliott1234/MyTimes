@@ -1,25 +1,41 @@
 header {
+  position: fixed;
+  top: 0px;
+  margin-bottom: auto;
+  border-bottom: solid 1px black;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  width: 100%;
+  background-color: white;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  }
+}
+
 .logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
   color: MediumAquamarine;
   margin-left: 25px;
   }
 .navigation {
+  padding-top: 15px;
   color: black;
+  margin-top: 10px;
   margin-left: 900px;
+  align-items: center;
  }
 #link {
   margin-left: 10px;
   color: black;
  }
 .main {
-    margin-top: 50px;
+  padding-left: 100px;
+  padding-top: 20px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     margin-left: 50px;
@@ -40,7 +56,7 @@ header {
 .header1 {
       display: flex;
       align-items: center;
-      background-image: url("../images/main.PNG"); width: 629; height: 300;
+      background-image: url(../images/main.PNG); width: 629px; height: 300px;
       max-width: 629px;
       min-height: 300px;
       padding-left: 20px;
@@ -58,7 +74,7 @@ header {
 .header2 {
       display: flex;
       align-items: center;
-      background-image: url("../images/autumn.PNG"); width: 299; height: 300;
+      background-image: url(../images/autumn.PNG); width: 299px; height: 300px;
       max-width: 299px;
       min-height: 300px;
       margin: 5px;
@@ -79,22 +95,23 @@ width: 310px;
 .header3 {
       display: flex;
       justify-content: center;
-      background-image: url("../images/camera.PNG"); width: 299; height: 300;
+      background-image: url(../images/camera.PNG); width: 299px; height: 300px;
       max-width: 299px;
       min-height: 300px;
       margin: 5px;
     }
 .medium {
-      min-width: 300px;
+      width: 300px;
       display: flex;
       flex-direction: column;
-      margin-right: 10px
+      margin-right: 10px;
+      margin-top: 0px;
     }
 .header4 {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-image: url("../images/cat.PNG"); width: 299; height: 300;
+      background-image: url(../images/cat.PNG); width: 299px; height: 300px;
       min-width: 299px;
       min-height: 300px;
     }
@@ -120,13 +137,15 @@ width: 310px;
       border-bottom: solid 1px black;
     }
 .footer {
+  padding: 0px;
+  margin-left: 0px;
+  margin-top: 50px;
   align-items: center;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   background-color: MediumAquamarine;
-  margin: auto;
   font-family: Verdana;
   font-size: 12px;
   width: 100%;
