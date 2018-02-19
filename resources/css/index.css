@@ -57,8 +57,8 @@ header {
       display: flex;
       align-items: center;
       background-image: url(../images/main.PNG); width: 629px; height: 300px;
-      max-width: 629px;
-      min-height: 300px;
+      width: 629px;
+      height: 300px;
       padding-left: 20px;
     }
 #mother {
@@ -75,8 +75,8 @@ header {
       display: flex;
       align-items: center;
       background-image: url(../images/autumn.PNG); width: 299px; height: 300px;
-      max-width: 299px;
-      min-height: 300px;
+      width: 299px;
+      height: 300px;
       margin: 5px;
     }
 #earth {
@@ -96,8 +96,8 @@ width: 310px;
       display: flex;
       justify-content: center;
       background-image: url(../images/camera.PNG); width: 299px; height: 300px;
-      max-width: 299px;
-      min-height: 300px;
+      width: 299px;
+      height: 300px;
       margin: 5px;
     }
 .medium {
@@ -112,8 +112,8 @@ width: 310px;
       align-items: center;
       justify-content: center;
       background-image: url(../images/cat.PNG); width: 299px; height: 300px;
-      min-width: 299px;
-      min-height: 300px;
+      width: 299px;
+      height: 300px;
     }
 .small {
       width: 240px;
